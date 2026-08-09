@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOTEL PET</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="/tela_usuarios/tela_usuarios.css">
+    </head>
+    <body class="index">
+        <div class="menu">
+            <h1>Hotel Pet</h1>
+            <a href="../tela_pet/tela_pet.html"><li><img src="img/icons/github.png" alt="Pet"> Pet </li></a>
+            <a href="#"><li class="selected"><img src="img/icons/user.png" alt="Usuário"> Usuário </li></a>
+            <a href="../tela_configurações/tela_configuracoes.html"><li><img src="img/icons/settings.png" alt="Configurações"> Configurações </li></a>
+            <a href="../tela_reservas/tela_reservas.html"><li><img src="img/icons/reserve.png" alt="Sair"> Reservas </li></a>
+        </div>
+        <div class="area-logada">
+            <li class="area-logada"><img src="img/icons/Intersect.png" alt="Usuário" class="user-icon"> João da Silva </li>
+        </div>
+        <div class="content">
+            <p>Home / Usuário</p>
+            <div class="usuarios">
+                <h2>Usuários</h2>
+                <div class="botoes-1">
+                    <a href="/tela_usuarios/tela-novo.html"><button><img src="/tela_usuarios/img/icons/novo.png">Novo</button></a>
+                    <button><img src="/tela_usuarios/img/icons/remover.png">Remover</button>
+                    <button><img src="/tela_usuarios/img/icons/mudar.png">Mudar status</button>
+                </div>    
+                <div class="botoes-2">
+                    <p>Visualizar por:</p>
+                    <button><img src="">Usuários</button>
+                    <button><img src="">Função</button>
+                </div>
+                <form>
+                    <div>
+                        <label>Id</br>
+                        <input type="number"></label><br>
+                        <label>Email</br>
+                        <input type="email"></label><br>
+                        <label>Status</br>
+                            <select name="tipos">
+                                <option>Inativo</option>
+                                <option>Ativo</option>
+                            </select></label></br>
+                    </div>
+                    <div>
+                        <label>Criado em </br>
+                        <input type="date"><input type="date"></label><br>
+                        <label>Nome</br>
+                        <input type="text"></label><br>
+                        <label>Função</br>
+                            <select name="tipos">
+                                <option>Gerente</option>
+                                <option>Funcionário</option>
+                                <option>Cliente</option>
+                            </select></label></br>
+                        <div class="botoes-3">
+                            <button><img src="/tela_pet/img/icons/pesquisar.png">Pesquisar</button>
+                            <button><img src="/tela_pet/img/icons/limpar_icone.png">Limpar</button>
+                        </div>
+                    </div>
+                </form>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Foto</th>
+                        <th>Email</th>
+                        <th>Nome</th>
+                        <th>função</th>
+                        <th>status</th>
+                        <th>Criado em:</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><img src="/tela_usuarios/img/user1.png"></td>
+                        <td>joaodasilva@pet.com</td>
+                        <td>João da Silva</td>
+                        <td>Gerente</td>
+                        <td><p>Ativo</p></td>
+                        <td>19/02/2020</td>
+                        <td><a href="/tela_usuarios/tela-novo.html">Editar</a><a href="">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><img src="/tela_usuarios/img/user2.png"></td>                        
+                        <td>maria@pet.com</td>
+                        <td>Maria da Silva</td>
+                        <td>Funcionário</td>
+                        <td><p class="inative">Inativo</p></td>
+                        <td>19/06/2020</td>
+                        <td><a href="/tela_usuarios/tela-novo.html">Editar</a><a href="">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><img src="/tela_usuarios/img/user3.png"></td>
+                        <td>josedasilva@pet.com</td>
+                        <td>José da Silva</td>
+                        <td>Cliente</td>
+                        <td><p>Ativo</p></td>
+                        <td>19/10/2020</td>
+                        <td><a href="/tela_usuarios/tela-novo.html">Editar</a><a href="">Visualizar</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

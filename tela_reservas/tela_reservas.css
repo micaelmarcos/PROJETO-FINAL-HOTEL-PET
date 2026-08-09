@@ -1,0 +1,89 @@
+.reservas {
+    background-color: #F1F1F1;
+}
+form {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    background-color: #DFDFDF;
+}
+form input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+form input[type="date"] {
+    width: 90px;
+    margin-right: 10px;
+}
+form select {
+    width:300px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+form button, button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    gap: 5px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+}
+button:hover {
+    background-color: blue;
+    border: none;
+    
+}
+
+h2 {
+    margin-left: 30px;
+}
+.reservas a {
+    border: 1px solid blue;
+    padding: 10px;
+    margin-left: 30px;
+
+}
+table {
+    margin-top: 30px;
+    width: 100%; 
+    border-collapse: collapse;
+}
+th {
+    letter-spacing: 1px;
+    background-color: #b1b0b0;
+    height: 40px;
+}
+th, td {
+    padding: 5px 14px;
+    text-align: left;
+}
+tr {
+    background-color: #d8d8d8;
+}
+table a {
+padding:10px;
+}
+table p {
+    border: 1px solid green;
+    padding: 5px;
+}
+.inative {
+    border: 1px solid blue;
+}
+tr:nth-child(even) {
+    background-color: #f3eeee;
+}
+tr:hover {
+    background-color: rgb(77, 70, 167);
+}

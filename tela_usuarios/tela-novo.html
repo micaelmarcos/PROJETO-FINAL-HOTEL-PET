@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOTEL PET</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="/tela_usuarios/tela-novo.css">
+    </head>
+    <body class="index">
+        <div class="menu">
+            <h1>Hotel Pet</h1>
+            <a href="../tela_pet/tela_pet.html"><li><img src="img/icons/github.png" alt="Pet"> Pet </li></a>
+            <a href="/tela_usuarios/tela_usuarios.html"><li class="selected"><img src="img/icons/user.png" alt="Usuário"> Usuário </li></a>
+            <a href="../tela_configurações/tela_configuracoes.html"><li><img src="img/icons/settings.png" alt="Configurações"> Configurações </li></a>
+            <a href="../tela_reservas/tela_reservas.html"><li><img src="img/icons/reserve.png" alt="Sair"> Reservas </li></a>
+        </div>
+        <div class="area-logada">
+            <li class="area-logada"><img src="img/icons/Intersect.png" alt="Usuário" class="user-icon"> João da Silva </li>
+        </div>
+        <div class="content">
+            <p>Home / Usuário/ Novo Usuário</p>
+            <div class="usuarios">
+                <h2>Editar Perfil</h2>
+                <form action="/tela_usuarios/tela_usuarios.html" method="get">
+                    <label>Email*</br>
+                    <input type="email"></label><br>
+                    <label>Nome*</br>
+                    <input type="text"></label><br>
+                    <label>Sobrenome</br>
+                    <input type="text"></label><br>
+                    <label>Telefone*</br>
+                    <input type="tel"></label><br>
+                    <label>Função</br>
+                        <select name="tipos">
+                            <option>Cliente</option>
+                            <option>Funcionário</option>
+                            <option>Gerente</option>
+                        </select></label></br>
+                    <label>Foto</br>
+                    <input type="file"></label></br>
+                    <div class="botoes-1">
+                        <button type="submit" class="btn-salvar"><img src="/tela_usuarios/img/icons/salvar.png">Salvar</button>
+                        <button type="reset"><img src="/tela_pet/img/icons/limpar_icone.png">Limpar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </body>
+</html>

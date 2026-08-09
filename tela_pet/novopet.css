@@ -1,0 +1,53 @@
+.pets {
+    background-color: #F1F1F1;
+}
+.form {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.pets form {
+    width: 80%;
+    margin-left: 40px;
+}
+.pets form input {
+    width: 100%;
+}
+.img-pet {
+    width: 200px;
+    margin: 50px;
+}
+.pets form input, select {
+    width: 80%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+button {
+    display: flex;
+    grid-column: span 2;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+.salvar, .limpar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0284c7;
+}
+
+.limpar {
+    background-color: #e6e2e2;
+    color: black;
+    margin-left: 40%;
+    border: solid 2px blue;
+}
+.botoes {
+    display: flex;
+}

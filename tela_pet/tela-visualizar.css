@@ -1,0 +1,22 @@
+.ver-pet {
+    background-color: #F1F1F1;
+}
+.ver-pet p {
+    margin-left: 200px;
+}
+.foto-pet {
+    margin-left: 200px;
+}
+button {
+    margin-top: 10px;    
+    border: 1px, solid, blue;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100px;
+}
+.ver-pet a {
+    text-decoration: none;
+}

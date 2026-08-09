@@ -1,0 +1,87 @@
+.pets {
+    background-color: #F1F1F1;
+}
+.pets a {
+    text-decoration: none;
+    padding: 8px;
+    border: 2px solid blue;
+}
+.pets h2 {
+    margin-bottom: 30px;
+}
+
+.pets_pesquisar {
+    margin-top: 20px;
+    background-color: #DFDFDF;
+}
+
+.pets_pesquisar form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+.pets_pesquisar form input {
+    width: 80%;
+    height: 30px;
+    margin: 10px;
+}
+.pets_pesquisar input:hover {
+    outline: none;
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.25);
+}
+
+
+
+.pesquisar, .limpar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0284c7;
+}
+.limpar {
+    background-color: #F1F1F1;
+    color: black;
+}
+.botões {
+    display: flex;
+    grid-column: span 2;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 50px;
+}
+
+.pets table {
+    margin-top: 30px;
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px 14px;
+    text-align: left;
+}
+tr {
+    background-color: #d8d8d8;
+}
+th {
+    letter-spacing: 1px;
+    background-color: #b1b0b0;
+}
+.pets table a {
+    border: none;
+}
+
+tr:nth-child(even) {
+    background-color: #f1eeee;
+}
+
+tr:hover {
+    background-color: rgb(77, 70, 167);
+}

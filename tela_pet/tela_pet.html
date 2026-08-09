@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOTEL PET</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="style_pet.css">
+    </head>
+    <body class="index">
+        <div class="menu">
+            <h1>Hotel Pet</h1>
+            <a href="#"><li class="selected"><img src="img/icons/github.png" alt="Pet"> Pet </li></a>
+            <a href="../tela_usuarios/tela_usuarios.html"><li ><img src="img/icons/user.png" alt="Usuário"> Usuário </li></a>
+            <a href="../tela_configurações/tela_configuracoes.html"><li><img src="img/icons/settings.png" alt="Configurações"> Configurações </li></a>
+            <a href="../tela_reservas/tela_reservas.html"><li><img src="img/icons/reserve.png" alt="Sair"> Reservas </li></a>
+        </div>
+        <div class="area-logada">
+            <li class="area-logada"><img src="img/icons/Intersect.png" alt="Usuário" class="user-icon"> João da Silva </li>
+        </div>
+        <div class="content">
+            <p>Home / Pets</p>
+            <div class="pets">
+                <h2>Pets</h2>
+                <a href="novopet.html">+ Novo Pet</a>
+                <div class="pets_pesquisar">
+                    <form>
+                        <input type="number" name="Id" placeholder="Id">
+                        <input type="text" name="nome" placeholder="Nome">
+                        <input type="text" name="raca" placeholder="Raça">
+                        <input type="number" name="tamanho" placeholder="Tamanho">
+                        <div class="botões">
+                            <button type="submit" class="pesquisar"><img src="img/icons/pesquisar.png"></img>Pesquisar</button>
+                            <button type="reset" class="limpar"><img src="img/icons/limpar_icone.png">Limpar</button>
+                        </div>
+                    </form>
+
+                </div>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>Tipo</th>
+                        <th>Raça</th>
+                        <th>Tamanho</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>12349984501</td>
+                        <td>Max</td>
+                        <td>Cachorro</td>
+                        <td>Pastor alemão</td>
+                        <td>Grande</td>
+                        <td><a href="/tela_pet/novopet.html">Editar</a><a href="/tela_pet/tela-visualizar.html">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>12349984500</td>
+                        <td>Ginger</td>
+                        <td>Gato</td>
+                        <td>Não definida</td>
+                        <td>Pequeno</td>
+                        <td><a href="/tela_pet/novopet.html">Editar</a><a href="/tela_pet/tela-visualizar.html">Visualizar</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>

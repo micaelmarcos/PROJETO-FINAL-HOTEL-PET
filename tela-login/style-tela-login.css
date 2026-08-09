@@ -1,0 +1,102 @@
+.tela-login {
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+}
+.imagem-login {
+    display: flex;
+    justify-content: top;
+    align-items: top;
+}
+
+.formulario-login {
+    margin-top: 10px;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #aaaaaa;
+}
+.tela-login .formulario-login form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.tela-login input[type="text"], .tela-login input[type="password"] {
+    background-color: #f8fafc;
+    color: #0f172a;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+
+}
+
+.tela-login input[type="text"]:hover, .tela-login input[type="password"]:hover {
+    background-color:#f1f5f9;
+}
+.tela-login input[type="text"]:focus, .tela-login input[type="password"]:focus {
+    outline: none;
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.25);
+}
+
+.tela-login .formulario-login form input[type="checkbox"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lembrar {
+    display: flex;
+    align-items: left;
+    gap: 10px;
+    padding: 0px;
+}
+
+.tela-login button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0284c7;
+}
+.tela-login button:hover {
+    background-color: #0369a1;
+}
+.divisor {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+    color: #666;
+    font-size: 14px;
+}
+.divisor::before, .divisor::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+.tela-login a{
+    text-decoration: none;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.link-criar-conta {
+    margin-top: 20px;
+    text-align: center;
+}

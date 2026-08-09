@@ -1,0 +1,88 @@
+.usuarios {
+        background-color: #F1F1F1;
+}
+form {
+    background-color: #DFDFDF;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+}
+form input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+form input[type="date"] {
+    width: 90px;
+    margin-right: 10px;
+}
+form select {
+    width:300px;
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+form button, button{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    gap: 5px;
+}
+.botoes-1 , .botoes-2, .botoes-3 {
+    display: flex;
+    align-items: center;
+}
+.botoes-1 button:hover, .botoes-2 button:hover, .botoes-3 button:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.botoes-1 button, .botoes-2 button{
+    border: 1px solid blue;
+    background-color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    color: blue;
+    text-decoration: none;
+
+}
+
+
+table {
+    margin-top: 30px;
+    width: 100%; 
+    border-collapse: collapse;
+}
+th {
+    letter-spacing: 1px;
+    background-color: #b1b0b0;
+}
+
+th, td {
+    padding: 5px 14px;
+    text-align: left;
+}
+tr {
+    background-color: #d8d8d8;
+}
+table a {
+padding:10px;
+}
+table p {
+    border: 1px solid green;
+    padding: 5px;
+}
+.inative {
+    border: 1px solid red;
+}
+
+tr:nth-child(even) {
+    background-color: #f3eeee;
+}
+
+tr:hover {
+    background-color: rgb(77, 70, 167);
+}

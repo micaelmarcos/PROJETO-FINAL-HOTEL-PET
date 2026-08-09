@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOTEL PET</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="novopet.css">
+    </head>
+    <body class="index">
+        <div class="menu">
+            <h1>Hotel Pet</h1>
+            <a href="../tela_pet/tela_pet.html"><li class="selected"><img src="img/icons/github.png" alt="Pet"> Pet </li></a>
+            <a href="../tela_usuarios/tela_usuarios.html"><li ><img src="img/icons/user.png" alt="Usuário"> Usuário </li></a>
+            <a href="../tela_configurações/tela_configuracoes.html"><li><img src="img/icons/settings.png" alt="Configurações"> Configurações </li></a>
+            <a href="../tela_reservas/tela_reservas.html"><li><img src="img/icons/reserve.png" alt="Sair"> Reservas </li></a>
+        </div>
+        <div class="area-logada">
+            <li class="area-logada"><img src="img/icons/Intersect.png" alt="Usuário" class="user-icon"> João da Silva </li>
+        </div>
+        <div class="content">
+            <p>Home / Pets/ Novo Pet</p>
+            <div class="pets">
+                <h3>Novo Pet</h3>
+                <div class="form">
+                    <form>
+                        <label>Proprietário*</br>
+                        <input type="text" required></label><br>
+                        <label>Nome*</br>
+                        <input type="text" required></label></br>
+                        <label>Tipo*</br>
+                        <select name="tipos">
+                            <option>Cachorro</option>
+                            <option>Gato</option>
+                            <option>Outro</option>
+                        </select></label></br>
+                        <label>Raça*</br>
+                        <input type="text" required></label></br>
+                        <label>Tamanho </br>
+                        <select name="tamanhos">
+                            <option>Grande</option>
+                            <option>Médio</option>
+                            <option>Pequeno</option>
+                        </select></label></br>
+                        <div class="botoes">
+                            <button class="salvar"type="submit"><img src="/tela_pet/img/icons/pesquisar.png"> Salvar</button>
+                            <button class="limpar" type="reset"><img src="/tela_pet/img/icons/limpar_icone.png">Limpar</button>                    
+                        </div>
+                        </form>
+                    <img class="img-pet" src="/tela_pet/img/foto-pet.jpg">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

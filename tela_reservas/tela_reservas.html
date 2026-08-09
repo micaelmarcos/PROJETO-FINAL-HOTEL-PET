@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>HOTEL PET</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="/tela_reservas/tela_reservas.css">
+    </head>
+    <body class="index">
+        <div class="menu">
+            <h1>Hotel Pet</h1>
+            <a href="../tela_pet/tela_pet.html"><li><img src="img/icons/github.png" alt="Pet"> Pet </li></a>
+            <a href="../tela_usuarios/tela_usuarios.html"><li><img src="img/icons/user.png" alt="Usuário"> Usuário </li></a>
+            <a href="../tela_configurações/tela_configuracoes.html"><li><img src="img/icons/settings.png" alt="Configurações"> Configurações </li></a>
+            <a href="#"><li class="selected"><img src="img/icons/reserve.png" alt="Sair"> Reservas </li></a>
+        </div>
+        <div class="area-logada">
+            <li class="area-logada"><img src="img/icons/Intersect.png" alt="Usuário" class="user-icon"> João da Silva </li>
+        </div>
+        <div class="content">
+            <p>Home / Reservas</p>
+            <div class="reservas">
+                <h2>Reservas</h2>
+                <a href="/tela_reservas/fazer_reserva.html"><img src="/tela_reservas/img/icons/adicionar.png">Nova reserva</a>
+                <form>
+                    <div>
+                        <label>Id</br>
+                        <input type="number"></label></br>
+                        <label>Proprietário</br>
+                        <input type="text"></label></br>
+                        <label>Status<br>
+                            <select name="Status" id="">
+                                <option value="">Em progresso</option>
+                                <option value="">Reservada</option>
+                                <option value="">Finalizada</option>
+                            </select></br>
+                        </label>
+                    </div>
+                    <div>
+                        <label>Período</br>
+                        <input type="date"><input type="date"></label></br>
+                        <label>Total</br>
+                        <input type="number" placeholder="R$0,00"></label></br>
+                        <label>Pet</br>
+                        <input type="text"></label></br>
+                        <button type="submit"><img src="/tela_pet/img/icons/pesquisar.png">Pesquisar</button>
+                        <button type="reset"><img src="/tela_pet/img/icons/limpar_icone.png">Limpar</button>
+                    </div>
+                </form>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Id</th>
+                        <th>Pet</th>
+                        <th>Chegada</th>
+                        <th>Partida</th>
+                        <th>Status</th>
+                        <th>Total</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>12323243564</td>
+                        <td>Max</td>
+                        <td>02/05/2021</td>
+                        <td>07/05/2021</td>
+                        <td><p>Reservada</p></td>
+                        <td>R$40,00</td>
+                        <td><a href="/tela_reservas/editar_reserva.html">Editar</a><a href="/tela_reservas/ver_reserva.html">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>12323243566</td>
+                        <td>Ginger</td>
+                        <td>02/05/2021</td>
+                        <td>07/05/2021</td>
+                        <td><p>Em progresso</p></td>
+                        <td>R$40,00</td>
+                        <td><a href="/tela_reservas/editar_reserva_andamento.html">Editar</a><a href="/tela_reservas/ver_reserva.html">Visualizar</a></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td>12323243564</td>
+                        <td>Max</td>
+                        <td>02/05/2021</td>
+                        <td>07/05/2021</td>
+                        <td><p class="inative">Finalizada</p></td>
+                        <td>R$40,00</td>
+                        <td><a href="/tela_reservas/editar_reserva_finalizada.html">Editar</a><a href="/tela_reservas/ver_reserva.html">Visualizar</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
